@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CoverArt matches snap shot with default placeholder 1`] = `
+<DocumentFragment>
+  <div
+    class="flex justify-center items-center h-full pt-20 mb-4"
+  >
+    <img
+      alt="cover art"
+      class="w-80 h-80 object-cover"
+      src="/src/assets/placeholder.svg"
+    />
+  </div>
+</DocumentFragment>
+`;

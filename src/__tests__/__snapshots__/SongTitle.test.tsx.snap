@@ -1,0 +1,39 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SongTitle matches snap shot with the title and artist 1`] = `
+<DocumentFragment>
+  <div
+    class="text-center"
+  >
+    <h1
+      class="text-2xl font-bold"
+    >
+      Song Title
+    </h1>
+    <p
+      class="text-gray-600 text-lg"
+    >
+      Artist
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches the snap shot with the default title and artist 1`] = `
+<DocumentFragment>
+  <div
+    class="text-center"
+  >
+    <h1
+      class="text-2xl font-bold"
+    >
+      Tidal Drift
+    </h1>
+    <p
+      class="text-gray-600 text-lg"
+    >
+      Echos of the Sea
+    </p>
+  </div>
+</DocumentFragment>
+`;

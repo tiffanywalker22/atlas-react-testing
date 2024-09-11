@@ -1,0 +1,61 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`matches snap shot when not playing 1`] = `
+<DocumentFragment>
+  <div
+    class="flex justify-between items-center rounded-lg cursor-pointer bg-purple text-blue"
+  >
+    <div
+      class="flex flex-col"
+    >
+      <h3
+        class="text-sm font-semibold"
+      >
+        Song Title
+      </h3>
+      <p
+        class="text-xs text-gray-500"
+      >
+        Artist
+      </p>
+    </div>
+    <div
+      class="text-gray-400 text-sm"
+    >
+      <p>
+        8:02
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snap shot when playing 1`] = `
+<DocumentFragment>
+  <div
+    class="flex justify-between items-center rounded-lg cursor-pointer bg-pink text-white"
+  >
+    <div
+      class="flex flex-col"
+    >
+      <h3
+        class="text-sm font-semibold"
+      >
+        Song Title
+      </h3>
+      <p
+        class="text-xs text-gray-500"
+      >
+        Artist
+      </p>
+    </div>
+    <div
+      class="text-gray-400 text-sm"
+    >
+      <p>
+        3:45
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
