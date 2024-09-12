@@ -3,7 +3,7 @@
 exports[`CoverArt matches snap shot with default placeholder 1`] = `
 <DocumentFragment>
   <div
-    class="flex justify-center items-center h-full pt-20 mb-4"
+    class="flex justify-center items-center h-full mb-4"
   >
     <img
       alt="cover art"
