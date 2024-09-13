@@ -3,6 +3,14 @@ import { CurrentlyPlaying } from './components/CurrentlyPlaying';
 import { Playlist } from './components/Playlist';
 import { usePlaylistData } from './hooks/usePlaylistData';
 
+type Song = {
+    id: number;
+    title: string;
+    artist: string;
+    duration: string;
+    cover: string;
+};
+
 export default function MusicPlayer() {
     const { data: createPlaylist, loading, error } = usePlaylistData();
     const [currentTrack, setCurrentTrack] = useState<Song | null>(null);

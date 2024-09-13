@@ -8,4 +8,3 @@ export const SongTitle: React.FC<SongTitleProps> = ({ title, artist }) => {
         </div>
     );
 };
-
